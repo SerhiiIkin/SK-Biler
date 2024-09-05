@@ -1,0 +1,3 @@
+export const examplesCars = [
+    "Waymo: En af de mest avancerede aktører på området, Waymo har testet autonome køretøjer på offentlige veje i årevis og tilbyder nu en robotaxi-tjeneste i nogle byer.", "Tesla: Tesla har introduceret avancerede førerstøttesystemer som Autopilot og Full Self-Driving (FSD), der tilbyder semi-autonome funktioner til deres biler.", "Cruise: Støttet af General Motors, udvikler Cruise selvkørende biler og har begyndt at teste dem i flere amerikanske byer."
+]

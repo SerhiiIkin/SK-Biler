@@ -1,0 +1,24 @@
+{
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^react$",
+    "<THIRD_PARTY_MODULES>",
+    "^./(.*)$",
+    "^../(.*)$",
+    "^@layouts/(.*)$",
+    "^@pages/(.*)$",
+    "^@context/(.*)$",
+    "^@components/(.*)$",
+    "^@routes/(.*)$",
+    "^@store/(.*)$",
+    "^@hooks/(.*)$",
+    "^@utils/(.*)$",
+    "^@assets/(.*)$",
+    "^@variables/(.*)$",
+    "^@modules/(.*)$",
+    "^@providers/(.*)$",
+    "^@mui/(.*)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

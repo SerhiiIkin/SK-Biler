@@ -1,0 +1,47 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --swiper-pagination-bullet-size: 32px;
+  --swiper-pagination-bullet-vertical-gap: 20px;
+}
+
+.swiper-wrapper {
+  max-height: calc(100dvh - 64px - 20px);
+}
+
+.swiper-pagination-bullet {
+  background: white;
+  opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+  opacity: 1;
+}
+
+@keyframes scroll-reveal {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+@keyframes scroll-position-image {
+  to {
+    translate: 0 0;
+  }
+}
+
+section {
+  scroll-margin-top: 56px;
+  @media (min-width: 768px) {
+    scroll-margin-top: 64px;
+  }
+}
