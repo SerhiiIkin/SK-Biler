@@ -37,12 +37,12 @@ const VerticalTabs = () => {
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs"
-        sx={{
+        sx={ theme => ( {
           borderRight: 1,
-          borderColor: "divider",
+          borderColor: theme.vars.palette.text.default,
           alignItems: "center",
           minWidth: { md: "max-content" },
-        }}
+        })}
       >
         <Tab
           label="Teknologier og systemer"

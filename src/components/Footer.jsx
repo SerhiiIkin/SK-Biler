@@ -4,7 +4,7 @@ import { Button } from "@customMUI/Button";
 import { Link } from "@customMUI/Link";
 import { Typography } from "@customMUI/Typography";
 
-import pdf from "@assets/2024-2-FremFront.pdf";
+import pdf from "@assets/sk-biler.pdf";
 
 import { footerLinks } from "@variables/footerLinks";
 

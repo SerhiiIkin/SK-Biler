@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 import { Img } from "@customMUI/Img";
-import { EffectCoverflow, Mousewheel, Pagination } from "swiper/modules";
+import { EffectCoverflow,  Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Typography } from "@components/customMUI/Typography";
@@ -30,13 +30,9 @@ const Levels = () => {
       spaceBetween={30}
       effect={"coverflow"}
       slidesPerView={"1"}
-      grabCursor
-      threshold={0}
-      mousewheel={{ releaseOnEdges: true }}
-      touchReleaseOnEdges={true}
       direction={"vertical"}
       pagination={{ clickable: true }}
-      modules={[Pagination, Mousewheel, EffectCoverflow]}
+      modules={[Pagination,  EffectCoverflow]}
     >
       {levels.map((level) => (
         <SwiperSlide key={level.id}>
