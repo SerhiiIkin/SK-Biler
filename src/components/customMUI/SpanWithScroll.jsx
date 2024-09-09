@@ -14,6 +14,6 @@ export const SpanWithScrollToH3 = styled("span")(  {
 export  const SpanWithScrollToP = styled(SpanWithScrollToH3)(({theme}) => ({
   
     backgroundImage: `linear-gradient(90deg, ${theme.vars.palette.text.default}, ${theme.vars.palette.text.default})`,
-    animationRangeEnd: "cover 60dvh",
+    animationRangeEnd: "cover 90dvh",
   
 }));
